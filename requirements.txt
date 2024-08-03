@@ -1,6 +1,8 @@
+flask==2.1.0
+werkzeug==2.1.0
 joblib==1.4.0
 matplotlib==3.9.1
-numpy==1.24.0
+numpy==1.23.2
 optuna==3.6.1
 pandas==2.0.3
 scikit-learn==1.4.2
