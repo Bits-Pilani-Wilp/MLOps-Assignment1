@@ -16,7 +16,7 @@ venv/
 .ipynb_checkpoints
 
 # Data Files
-data/
+# data/
 #*.csv
 *.h5
 *.hdf5
@@ -32,19 +32,19 @@ logs/
 mlruns/
 
 # DVC
-.dvc/
-.dvc/cache/
-.dvc/tmp/
-*.dvc
+#.dvc/
+#.dvc/cache/
+#.dvc/tmp/
+#*.dvc
 
 # Docker
-*.dockerfile
-docker-compose.yml
-.dockerignore
+#*.dockerfile
+#docker-compose.yml
+#.dockerignore
 
 # Kubernetes
-*.yaml
-*.yml
+#*.yaml
+#*.yml
 
 # VS Code
 .vscode/
