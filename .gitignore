@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data Files
+data/
+*.csv
+*.h5
+*.hdf5
+*.pkl
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+.dvc/cache/
+.dvc/tmp/
+*.dvc
+
+# Docker
+*.dockerfile
+docker-compose.yml
+.dockerignore
+
+# Kubernetes
+*.yaml
+*.yml
+
+# VS Code
+.vscode/
+.history/
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.swo
