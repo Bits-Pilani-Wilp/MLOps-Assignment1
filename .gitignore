@@ -17,10 +17,10 @@ venv/
 
 # Data Files
 data/
-*.csv
+#*.csv
 *.h5
 *.hdf5
-*.pkl
+#*.pkl
 
 # Logs
 logs/
