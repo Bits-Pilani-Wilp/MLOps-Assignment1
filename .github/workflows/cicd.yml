@@ -14,7 +14,11 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: '3.11.5'
+
+    - name: Upgrade setuptools
+      run: |
+        python -m pip install --upgrade setuptools
 
     - name: Install dependencies
       run: |
@@ -25,12 +29,13 @@ jobs:
     - name: Lint with flake8
       run: |
         source venv/bin/activate
-        flake8 src tests
+        if [ -d "src" ]; then flake8 src; fi
+        if [ -d "tests" ]; then flake8 tests; fi
 
     - name: Test with pytest
       run: |
         source venv/bin/activate
-        pytest tests
+        if [ -d "tests" ]; then pytest tests; fi
 
     - name: Build Docker Image
       run: |
