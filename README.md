@@ -1,3 +1,13 @@
+MLOps Group 24
+
+Group Members
+●	Rajneesh Jha (2022ac05706)
+●	Sri Jayant (2022ac05045)
+●	Abhilesh Subhashrao Jawanjal (2022ac05604)
+●	Jeny Jasmine (2022ac05467)
+●	Mulla Akib Javed (2022ac05631)
+
+
 MLOps Assignment 
 
 We have created a machine learning model to predict the eleigibility for credit. 
